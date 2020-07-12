@@ -1,0 +1,29 @@
+{
+  "name": "yuriy-martini/laravel-comments",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuriy Martini",
+      "email": "yuriy.martini@live.it",
+      "homepage": "https://github.com/yuriy-martini",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "illuminate/support": "^6.0|^7.0",
+    "illuminate/database": "^6.0|^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "YuriyMartini\\Comments\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "YuriyMartini\\Comments\\ServiceProvider"
+      ]
+    }
+  }
+}
